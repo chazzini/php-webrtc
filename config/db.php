@@ -4,7 +4,7 @@ return [
     'dbhost' => 'localhost',
     'dbpassword' => '',
     'dbuser' => 'root',
-    'drive' => 'mysql',
+    'driver' => 'mysql',
     'port' => '3036',
     'dbname' => 'webrtc'
 ];

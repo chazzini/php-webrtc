@@ -1,11 +1,11 @@
 {
-  "name": "VCall",
+  "name": "php/videocall",
   "description": "Vide Call App",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "App\\": "app/",
-      "Framework\\": "Framework/"
+      "Framework\\": "Framework/",
+      "App\\": "App/"
     }
   },
   "authors": [

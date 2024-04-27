@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Dell\\Webrtc\\' => array($baseDir . '/src'),
+    'Framework\\' => array($baseDir . '/Framework'),
+    'App\\' => array($baseDir . '/App'),
 );
