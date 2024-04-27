@@ -1,0 +1,19 @@
+{
+  "name": "VCall",
+  "description": "Vide Call App",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Framework\\": "Framework/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Chinedu Chaz",
+      "email": "ccognate@gmail.com"
+    }
+  ],
+  "minimum-stability": "beta",
+  "require": {}
+}
