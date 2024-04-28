@@ -30,4 +30,9 @@ class Database
             throw new Exception("unable to connect to database" . $e->getMessage());
         }
     }
+
+    public function query()
+    {
+
+    }
 }

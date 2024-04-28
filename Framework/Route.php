@@ -111,10 +111,12 @@ class Route
                 $controllerMethod = $route['controllerMethod'];
                 $controller = new $controller();
                 $controller->$controllerMethod();
-                break;
+                return;
             }
         }
 
+
+        Error::notfound();
 
     }
 
