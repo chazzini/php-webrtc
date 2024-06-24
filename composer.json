@@ -6,7 +6,10 @@
     "psr-4": {
       "Framework\\": "Framework/",
       "App\\": "App/"
-    }
+    },
+    "Files": [
+      "server/socket_server.php"
+    ]
   },
   "authors": [
     {
@@ -15,5 +18,7 @@
     }
   ],
   "minimum-stability": "beta",
-  "require": {}
+  "require": {
+    "cboden/ratchet": "^0.4.4"
+  }
 }
